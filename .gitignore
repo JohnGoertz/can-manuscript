@@ -2,3 +2,5 @@
 Code/Model_*.pkl
 Code/.ipynb_checkpoints/Fig2c_Avg_Model-checkpoint.ipynb Code/.ipynb_checkpoints/Fig2d_LMC_Model-checkpoint.ipynb Code/.ipynb_checkpoints/Untitled-checkpoint.ipynb
 Code/.ipynb_checkpoints/
+Results/Model_Avg.pkl
+Results/Model_LMC.pkl
