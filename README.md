@@ -1,4 +1,6 @@
-The following instructions are for a Linux system. For a Windows system, you should use the Windows Subsystem for Linux 2 (WSL2). For a Mac system, you may need to install python3.9 using different commands, but the setup after that point should be the same.
+This is the data archive for the paper "Competitive Amplification Networks enable molecular pattern recognition with PCR"
+
+The following instructions are for a Linux system. For a Windows system, you should use the Windows Subsystem for Linux 2 (WSL2). For a Mac system, you may need to install libcairo2 using different commands, but the setup after that point should be the same.
 
 0. Ensure you have `mamba` installed (or change the commands below for conda): https://mamba.readthedocs.io/en/latest/installation.html
 1. Unzip env/candas.zip and env/nupack-4.0.1.7.zip
@@ -7,7 +9,7 @@ The following instructions are for a Linux system. For a Windows system, you sho
     # You should start in the can_paper/ directory
     cd env
     sudo apt update
-    sudo apt install libcairo2-dev
+    sudo apt install libcairo2-dev  # needed only for saving SVGs
     mamba env create -f env.yml --prefix ./can_manuscript
     conda activate can_manuscript
     pip install -e candas
@@ -19,8 +21,8 @@ The following instructions are for a Linux system. For a Windows system, you sho
     jupyter lab
     ```
 
-    * A browser window should open; if not copy-paste the full hyperlink that appears into a browser.
+    * A browser window should open; if not, copy-paste the full hyperlink that appears into a browser.
     
 4. Run each notebook
     * Open the .ipynb file in the `code/` subdirectory for each figure, and click "Run All". You may want to first remove all files from the "graphics" subdirectory to verify that they are freshly generated.
-    * Keep in mind that some notebooks, in particular the ones for Fig 2, may require up to 64GB of RAM.
+    * Keep in mind that some notebooks, in particular the ones for Fig 2, may require up to 64GB of RAM and thus may not run to completion on a personal computer.
