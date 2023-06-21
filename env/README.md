@@ -23,4 +23,4 @@ The following instructions are for a Linux system. For a Windows system, you sho
     
 4. Run each notebook
     * Open the .ipynb file in the `code/` subdirectory for each figure, and click "Run All". You may want to first remove all files from the "graphics" subdirectory to verify that they are freshly generated.
-    * Keep in mind that some notebooks, in particular the ones for Fig 2, require significant computational resources and may not run to completion on a personal computer. For these notebooks, a cloud-based virtual machine with at least 64GB of RAM is recommended, though more may be required. On Google Cloud Platform, the `e2-standard-16` machine should be sufficient.
+    * Keep in mind that some notebooks, in particular the ones for Fig 2, may require up to 64GB of RAM.
