@@ -1,0 +1,15 @@
+#PBS -lwalltime=24:00:00
+#PBS -lselect=1:ncpus=4:mem=2gb
+#PBS -J 1-37
+
+module load anaconda3/personal
+source activate pymc3
+
+cd $HOME/JG047/Code
+
+mkdir $TMPDIR/.theano
+export THEANO_FLAGS="base_compiledir=$TMPDIR/.theano"
+
+#python -c 'import theano; print(theano.config.base_compiledir); print(theano.config.compiledir)'
+
+python fit_individual_models.py $PBS_ARRAY_INDEX
