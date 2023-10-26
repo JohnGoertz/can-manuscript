@@ -1,0 +1,24 @@
+# File Name: \\wsl.localhost\Ubuntu\home\john\projects\CAN_paper\fig_s2\data\JG071A ARG1 Tripartite.eds
+# Comment: 
+# Operator: DEFAULT
+# Barcode: 
+# Instrument Type: QuantStudio™ 6 System
+# Block Type: 384-Well Block
+# Instrument Name: 278860576
+# Instrument Serial Number: 278860576
+# Heated Cover Serial Number: 278154452
+# Block Serial Number: 278033142
+# Run Start Date/Time: 2022-02-08 12:26:48 PM EST
+# Run End Date/Time: 2022-02-08 02:23:03 PM EST
+# Run Duration: 116 minutes 14 seconds
+# Sample Volume: 10.0
+# Cover Temperature: 105.0
+# Passive Reference: ROX
+# PCR Stage/Step Number: Stage 2 Step 2
+# Quantification Cycle Method: CT
+# Analysis Date/Time: 2023-10-26 01:33:08 PM EDT
+# Software Name and Version: Design & Analysis Software v2.6.0
+# Plugin Name and Version: Primary Analysis v1.7.0, Standard Curve v1.6.0
+# Exported On: 2023-10-26 01:33:26 PM EDT
+"Sample","Target","Number of Replicates","Quantity","Number of Cqs","Cq Mean","Cq SD","Cq SE","Biogroup"
+,"S056.1.1","384","-","0","14.861120371837458","3.3713788410082675","0.17226941139793125",
