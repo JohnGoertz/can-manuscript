@@ -1,3 +1,0 @@
-Results/** filter=lfs diff=lfs merge=lfs -text
-*.xls* filter=lfs diff=lfs merge=lfs -text
-*.eds filter=lfs diff=lfs merge=lfs -text
