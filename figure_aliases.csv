@@ -31,8 +31,7 @@ lunar_scream,3Cii,3Cii,3Cii
 cosmic_silence,3Di,3Di,3Di
 galactic_echo,3Dii,3Dii,3Dii
 atomic_opinion,7,4,4
-quantum_feeling,7A,4Ai,4Ai
-happy_vacuum,7Aleg,4Aleg,4Aleg
+quantum_feeling,7A,4A,4A
 sad_explosion,7B,4B,4B
 angry_rainbow,8,5,5
 excited_glacier,8A,5A,5A
@@ -42,6 +41,10 @@ bold_puddle,8D,5D,5D
 shy_earthquake,8E,5E,5E
 proud_pebble,8F,5F,5F
 humble_comet,ED1,ED1,ED1
+crunchy_water,ED1B,ED1B,ED1B
+bubbly_cement,ED1C,ED1C,ED1C
+curious_brick,ED1D,ED1D,ED1D
+jagged_melody,ED1E,ED1E,ED1E
 noisy_void,ED1Biii,ED1Biii,ED1Biii
 swift_glacier,ED1Ci,ED1Ci,ED1Ci
 slow_lightning,ED1Cii,ED1Cii,ED1Cii
@@ -90,14 +93,10 @@ invisible_rock,
 gritty_cloud,
 spicy_snow,
 fragrant_dirt,
-crunchy_water,
 gooey_granite,
 singing_stone,
 whispering_fire,
 glowing_mud,
-bubbly_cement,
-curious_brick,
-jagged_melody,
 triangular_aroma,
 fluid_brick,
 stretchy_theorem,
