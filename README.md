@@ -14,8 +14,6 @@ You should start in the root directory of the project.
     sudo apt install libcairo2-dev  # needed only for saving SVGs
     mamba env create -f env.yml --prefix ./can_manuscript
     conda activate can_manuscript
-    pip install -e candas
-    pip install -U nupack -f nupack-4.0.1.7/package/
     ```
 3. Open Jupyter Lab in a browser from the root directory for the project
     ```bash
