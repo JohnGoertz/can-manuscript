@@ -8,8 +8,8 @@ graph_pth = fig_pth / 'graphics'
 graph_pth.mkdir(exist_ok=True)
 root_pth = fig_pth.parent
 
-fig_version_path = root_pth / 'FIG_VERSION'
-with fig_version_path.open('r') as file:
+manuscript_version_path = root_pth / 'MANUSCRIPT_VERSION'
+with manuscript_version_path.open('r') as file:
     version = file.read().strip()
 
 with (root_pth / 'DIR_NAME_FMT').open('r') as file:
