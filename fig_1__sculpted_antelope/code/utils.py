@@ -1,5 +1,10 @@
 import pathlib as pl
 import pandas as pd
+import matplotlib as mpl
+from IPython.display import display, Image
+
+mpl.use('Cairo', force=True)  # for saving SVGs that Affinity Designer can parse
+    
 
 code_pth = pl.Path(__file__).parent  # for running in terminal
 fig_pth = code_pth.parent
@@ -29,9 +34,14 @@ def savefig(fig, alias, extra=''):
     print(f"Saving {name} in {graph_pth}:", end="")
     for ext in ["svg", "png"]:
         try:
-            fig.savefig(graph_pth / f"{name}.{ext}", dpi=600, transparent=True)
+            transparent = ext == "svg"
+            fig.savefig(graph_pth / f"{name}.{ext}", dpi=600, transparent=transparent)
             print(f" [.{ext}]", end="")
         except AttributeError:
             print(f" [.{ext} failed]", end="")
+        
     print(" done")
     
+    # Cairo is a non-interactive backend, so we have to load the save figure in 
+    # order to display it
+    display(Image(graph_pth / f"{name}.png"))
