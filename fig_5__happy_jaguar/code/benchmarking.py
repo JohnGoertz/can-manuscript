@@ -22,7 +22,7 @@ class Objective:
         self.IFI44L_offset = 0
         self.EMRI_tilt = 0
         self.IFI44L_tilt = 0
-        self.scale = 0.1
+        self.scale = 1
         self.vshift = 0
         self.sig = None
         self.EMRI_grid = None
@@ -37,8 +37,8 @@ class Objective:
 
         self.extent = np.max(np.abs(ds.wide["FAM-HEX"]))
         self.norm = mpl.colors.Normalize(vmin=-self.extent, vmax=+self.extent)
-        self.cmap = sns.diverging_palette(220, 20, as_cmap=True)
-        self.palette = sns.diverging_palette(220, 20, n=2)
+        self.cmap = sns.diverging_palette(20, 220, as_cmap=True)
+        self.palette = sns.diverging_palette(20, 220, n=2)
 
         self.set_limits()
 
