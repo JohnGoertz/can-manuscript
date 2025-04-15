@@ -28,14 +28,15 @@ alias_to_number = alias_table.set_index('alias')[version].to_dict()
 number_to_alias = alias_table.set_index(version)['alias'].to_dict()
 
 
-def savefig(fig, alias, extra=''):
+def savefig(fig, alias, extra='', display_width_inches=7.5, dpi=600):
     number = alias_to_number[alias]
+    extra = '__' + extra if extra else ""
     name = fig_name_fmt.format(number=number, alias=alias, extra=extra)
     print(f"Saving {name} in {graph_pth}:", end="")
     for ext in ["svg", "png"]:
         try:
             transparent = ext == "svg"
-            fig.savefig(graph_pth / f"{name}.{ext}", dpi=600, transparent=transparent)
+            fig.savefig(graph_pth / f"{name}.{ext}", dpi=dpi, transparent=transparent)
             print(f" [.{ext}]", end="")
         except AttributeError:
             print(f" [.{ext} failed]", end="")
@@ -44,4 +45,5 @@ def savefig(fig, alias, extra=''):
     
     # Cairo is a non-interactive backend, so we have to load the save figure in 
     # order to display it
-    display(Image(graph_pth / f"{name}.png"))
+    display(Image(graph_pth / f"{name}.png", width=display_width_inches * dpi))
+    
