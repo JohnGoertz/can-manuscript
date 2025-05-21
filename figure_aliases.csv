@@ -83,9 +83,9 @@ liquid_yabby,S3,S6,S6
 solid_zorilla,S3A,S6A,S6A
 heavy_ant,S3B,S6B,S6B
 light_boa,S3C,S6C,S6C
-high_gecko,,,
-low_haddock,,,
-wet_iguana,,,
+high_gecko,,,S7
+low_haddock,,,S7A
+wet_iguana,,,S7B
 dry_jellyfish,,,
 dark_kudu,,,
 soft_lamprey,,,
