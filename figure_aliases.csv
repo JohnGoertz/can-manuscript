@@ -86,10 +86,9 @@ light_boa,S3C,S6C,S6C
 high_gecko,,,S7
 low_haddock,,,S7A
 wet_iguana,,,S7B
-dry_jellyfish,,,
-dark_kudu,,,
-soft_lamprey,,,
-cold_mole,,,
+dark_kudu,,,S8
+soft_lamprey,,,S9
+cold_mole,,,S10
 hot_newt,,,
 visible_orca,,,
 invisible_parrot,,,
