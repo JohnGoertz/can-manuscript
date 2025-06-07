@@ -53,8 +53,9 @@ sour_dolphin,ED1Biii,ED1Biii,ED1C
 fast_vole,ED1Ci,ED1Ci,ED1Di
 slow_wombat,ED1Cii,ED1Cii,ED1Dii
 strong_xerus,ED1Di,ED1Di,ED1E
-weak_yaksha,ED1Ei,ED1Ei,ED1Fi
-big_zebra,ED1Eii,ED1Eii,ED1Fii
+weak_yaksha,ED1Ei,ED1Ei,ED1Fii
+big_zebra,ED1Eii,ED1Eii,ED1Fi
+vibrant_ibis,,,ED1Fiii
 small_aardvark,S1,S1,S1
 tall_baboon,S1ABC,S1ABC,S1A
 short_caracal,S1DEF,S1DEF,S1B
@@ -107,7 +108,6 @@ jagged_hermitcrab,,,S10F
 hot_newt,,,S11
 frigid_yeti,,,S11B
 pliable_zorse,,,S11D
-vibrant_ibis,,,
 faded_jerboa,,,
 ancient_kangaroo,,,
 modern_lemur,,,
