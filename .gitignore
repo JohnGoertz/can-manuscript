@@ -1,3 +1,4 @@
+.DS_Store
 *__pycache__*
 Code/Model_*.pkl
 Code/.ipynb_checkpoints/Fig2c_Avg_Model-checkpoint.ipynb Code/.ipynb_checkpoints/Fig2d_LMC_Model-checkpoint.ipynb Code/.ipynb_checkpoints/Untitled-checkpoint.ipynb
